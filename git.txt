@@ -1,0 +1,15 @@
+Central Code Repository
+
+Before starting work => take code from repo => code changes => add code back in repo
+
+Step 1: git pull => pull all the code from repo to your local project
+Step 2: Code Changes ==> (whatever code changes you want)
+Step 3: Commit code to git
+Step 4: git push ==> whatever code you added, will not be copied to central code repo
+
+git: is a tool/technology used for SCM: source code management
+
+github: is a online platform which uses git, and it will provide central code repository.
+
+# Initialise git locally: git init
+# Add changes to git: git add .
