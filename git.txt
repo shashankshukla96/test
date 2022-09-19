@@ -11,5 +11,21 @@ git: is a tool/technology used for SCM: source code management
 
 github: is a online platform which uses git, and it will provide central code repository.
 
-# Initialise git locally: git init
-# Add changes to git: git add .
+# Initialise git locally: git init --> has to be done only once
+
+# Stage changes to git: git add .
+
+# Commit the code: git commit -m "Commit Message"
+
+# Add remote: git remote add <remote_name> <remote_url>  --> has to be done only once
+
+# Push the code: git push <remote_name> <branch_name>
+
+
+# Stages in GIT
+1. Changes: After commit what are all the changes
+2. Stage: Marking changes as staged, means that these staged changes are ready for commit
+3. Commit: Final changes adding to the git.
+
+remote: the central repository
+git remote add abcd <remote_url>
